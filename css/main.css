@@ -80,7 +80,7 @@ html {
 }
 
 .wave-bg {
-  display: block;
+  display:block;
   height: 220px;
   width: 100%;
   min-width: 600px;
@@ -271,18 +271,19 @@ footer a:not(.nav-link) {
 }
 
 .images{
-  width: 45%;
+  width: 25%;
   height: 80%;
   position: absolute;
-  bottom: 280px;
-  right: 700px;
+  bottom: 230px;
+  right: 820px;
+  z-index: 1000;
 }
 
 .images img{
   height: 70%;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 20px;
   transform: translateX(-50%);
   transition: bottom 1s, left 1s;
 }
